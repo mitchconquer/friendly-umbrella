@@ -1,0 +1,12 @@
+<h1><%= @article.title %></h1>
+
+<p>
+  <%= @article.body %>
+</p>
+<br><br>
+<%= link_to "<< Back to all articles", articles_path %>
+<br><br>
+<br>
+<code>
+  <%= p @all_params %>
+</code>
